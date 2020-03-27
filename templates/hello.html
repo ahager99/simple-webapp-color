@@ -6,8 +6,10 @@
 </head>
 <body style="background-color:{{ color }};">
     <h1><center>Hello from {{ name }}!</center></h1>
-    {% if contents %}
-     {{ contents }}
+    {% if content %}
+    <div align="center">
+      <textarea rows = "5" cols = "60">{{ content }}</textarea>
+    </div>
     {% endif %}
 </body>
 </html>
