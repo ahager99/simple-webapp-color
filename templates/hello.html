@@ -6,5 +6,8 @@
 </head>
 <body style="background-color:{{ color }};">
     <h1><center>Hello from {{ name }}!</center></h1>
+    {% if contents %}
+     {{ contents }}
+    {% endif %}
 </body>
 </html>
